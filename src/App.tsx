@@ -1,9 +1,10 @@
-import Header from "./components/header";
+import { About, Header } from './components'
 
 function App() {
   return (
     <>
     <Header />
+    <About />
     </>
   )
 }
