@@ -28,8 +28,8 @@ export default function About(): any {
     ])
 
     return (
-        <div id='about' className="bg-alternate-bg flex items-center flex-wrap lg:flex-row flex-col">
-            <div className="lg:w-3/5 lg:px-6 px-1 py-12">
+        <div id='about' className="bg-alternate-bg py-16 flex items-center flex-wrap lg:flex-row flex-col">
+            <div className="lg:w-3/5 lg:px-6 px-1 ">
                 <div className="flex">
                     {
                         socials.map((social:any)=>(
@@ -42,7 +42,7 @@ export default function About(): any {
                 <h1 className="lg:mx-4 mx-2 py-6 text-white font-Nunito lg:text-6xl text-3xl font-bold">
                     I am Okeypraise Junior
                 </h1>
-                <p className="text-white lg:mx-4 mx-2 py-2">
+                <p className="text-white lg:mx-4 mx-2 py-2 font-Nunito">
                     Frontend Developer | Mobile App Developer | React JS | React Native | TailwindCSS
                 </p>
                 <button className="border border-orange rounded-full px-6 bg-transparent hover:bg-orange ease-in-out duration-300 py-3 my-3 text-white font-Lato lg:mx-4 mx-2">
