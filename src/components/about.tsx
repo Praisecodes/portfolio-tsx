@@ -28,7 +28,7 @@ export default function About(): any {
     ])
 
     return (
-        <div id='about' className="bg-alternate-bg flex items-center justify-center flex-wrap lg:flex-row flex-col">
+        <div id='about' className="bg-alternate-bg flex items-center flex-wrap lg:flex-row flex-col">
             <div className="lg:w-3/5 lg:px-6 px-1 py-12">
                 <div className="flex">
                     {
@@ -49,7 +49,7 @@ export default function About(): any {
                     Buy Me A Coffee
                 </button>
             </div>
-            <div className="lg:w-2/5 bg-about object-cover h-80 bg-center bg-no-repeat"></div>
+            <div className="lg:w-2/5 w-full bg-about object-cover h-80 bg-center bg-no-repeat"></div>
         </div>
     )
 }
