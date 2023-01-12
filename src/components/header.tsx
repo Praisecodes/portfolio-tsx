@@ -5,7 +5,7 @@ export default function Header(): any{
         {
             id: 1,
             title: 'Home',
-            navLink: '#home',
+            navLink: '#intro',
         },
         {
             id: 2,
@@ -35,7 +35,7 @@ export default function Header(): any{
     ])
 
     return(
-        <div id="home" className="bg-transparent flex items-center justify-between py-8 lg:px-14 px-2 text-white font-Lato">
+        <div id="home" className="bg-main-bg w-full sticky top-0 left-0 flex items-center justify-between py-8 lg:px-14 px-2 text-white font-Lato">
             <h1 className="text-3xl w-fit">
                 Praise C<span className="text-orange">o</span>des
             </h1>

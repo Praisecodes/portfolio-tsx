@@ -37,16 +37,7 @@ export default function Services(): any{
                 </div>
                 <div className="lg:w-3/5 text-white font-Nunito">
                     <p>
-                        {/* I'm a frontend developer with 2 years+ experience in building responsive and 
-                        user-friendly websites. I have a strong background in HTML, CSS, JavaScript and 
-                        TypeScript, and I'm always looking to stay up-to-date on the latest technologies and 
-                        best practices.<br />
-                        In my spare time, I enjoy tinkering with new frameworks and
-                        libraries and sharing my knowledge with the community through
-                        open source contributions. I'm passionate about creating
-                        engaging and intuitive user experiences, and I'm always looking
-                        for new challenges and opportunities to learn and grow as a
-                        developer. */}
+                        
                         I'm a frontend developer with 2 years+ experience in building responsive and 
                         user-friendly websites. I have a strong background in HTML, CSS, JavaScript and 
                         TypeScript, and I'm always looking to stay up-to-date on the latest technologies and 
