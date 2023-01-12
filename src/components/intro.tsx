@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { FaFacebookF, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import { RiInstagramFill } from 'react-icons/ri';
 
-export default function About(): any {
+export default function Intro(): any {
     const [socials]: readonly any[] = useState([
         {
             id: 1,
