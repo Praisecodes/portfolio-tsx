@@ -1,5 +1,5 @@
-import About from "./about";
+import Intro from "./intro";
 import Header from "./header";
 import Services from "./services";
 
-export {Header, About, Services};
+export {Header, Intro, Services};
