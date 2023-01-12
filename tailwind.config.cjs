@@ -24,8 +24,8 @@ module.exports = {
         'Nunito': ["Nunito"],
       },
       backgroundImage:{
-        'about': 'url("./src/assets/images/praise.png")',
-        'other': 'url("./src/assets/images/praisecodes.png")',
+        'about': 'url("/src/assets/images/praise.png")',
+        'other': 'url("/src/assets/images/praisecodes.png")',
       },
     },
   },
