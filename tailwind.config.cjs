@@ -15,6 +15,9 @@ module.exports = {
         'phpcolor': '#8993be',
         'sqlcolor': '#00758F',
         'typescriptcolor': '#007acc',
+        'reactcolor': '#61dbfb',
+        'gitcolor': '#f34f29',
+        'githubcolor': '#4078c0',
       },
       fontFamily:{
         'Lato': ["Lato"],

@@ -1,5 +1,6 @@
-import { SiJavascript, SiCss3, SiHtml5, SiPhp, SiTypescript } from 'react-icons/si';
+import { SiJavascript, SiCss3, SiHtml5, SiPhp, SiTypescript, SiReact, SiGithub } from 'react-icons/si';
 import { ImDatabase } from 'react-icons/im';
+import { FaGitAlt } from 'react-icons/fa';
 import { useState } from 'react';
 
 export default function Skills(): any{
@@ -40,6 +41,24 @@ export default function Skills(): any{
             title: "TypeScript",
             coloring: "typescriptcolor",
         },
+        {
+            id: 7,
+            icon: <SiReact />,
+            title: "React JS",
+            coloring: "reactcolor",
+        },
+        {
+            id: 8,
+            icon: <FaGitAlt />,
+            title: "Git",
+            coloring: "gitcolor",
+        },
+        {
+            id: 9,
+            icon: <SiGithub />,
+            title: "GitHub",
+            coloring: "githubcolor",
+        },
     ])
 
     return (
@@ -50,7 +69,7 @@ export default function Skills(): any{
             <p>
                 Here Are My Skills
             </p><br />
-            <p className="hidden text-csscolor text-jscolor text-phpcolor text-sqlcolor text-typescriptcolor">
+            <p className="hidden text-csscolor text-jscolor text-githubcolor text-gitcolor text-phpcolor text-reactcolor text-sqlcolor text-typescriptcolor">
                 something
             </p>
             <div className="flex flex-wrap justify-center items-center">
