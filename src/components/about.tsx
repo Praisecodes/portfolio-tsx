@@ -1,3 +1,5 @@
+import Resume from '../assets/files/Okeypraise Junior Resume.pdf';
+
 export default function About(): any{
     return (
         <div data-aos="zoom-in-up" id="about" className="py-12 flex flex-col lg:items-start items-center bg-alternate-bg lg:px-20 px-5 text-white font-Nunito">
@@ -23,9 +25,9 @@ export default function About(): any{
                         developer.
                     </p><br /><br />
 
-                    <button className="border border-orange px-7 py-3 hover:bg-orange duration-300 ease-in-out rounded-full">
+                    <a href={Resume} download={"Okeypraise Junior Resume"} className="border border-orange px-7 py-3 hover:bg-orange duration-300 ease-in-out rounded-full">
                         Download Resume
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
