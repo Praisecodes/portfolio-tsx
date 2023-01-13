@@ -28,7 +28,7 @@ export default function Intro(): any {
     ])
 
     return (
-        <div id='intro' className="bg-alternate-bg py-16 flex items-center flex-wrap lg:flex-row flex-col">
+        <div data-aos="fade-up" id='intro' className="bg-alternate-bg py-16 flex items-center flex-wrap lg:flex-row flex-col">
             <div className="lg:w-3/5 lg:px-6 px-1 ">
                 <div className="flex">
                     {

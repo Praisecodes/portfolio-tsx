@@ -21,7 +21,7 @@ export default function Contact():any{
     }
 
     return (
-        <div id="contact" className="py-12 px-3 bg-alternate-bg flex flex-col items-center font-Nunito text-white">
+        <div data-aos="zoom-in" id="contact" className="py-12 px-3 bg-alternate-bg flex flex-col items-center font-Nunito text-white">
             <h1 className="flex flex-col items-center after:content-[''] after:bg-orange after:h-1 after:w-1/2 w-fit after:block text-2xl after:rounded-full font-bold">
                 Contact Me
             </h1><br /><br />

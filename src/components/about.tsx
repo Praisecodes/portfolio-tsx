@@ -1,6 +1,6 @@
 export default function About(): any{
     return (
-        <div id="about" className="py-12 flex flex-col lg:items-start items-center bg-alternate-bg lg:px-20 px-5 text-white font-Nunito">
+        <div data-aos="zoom-in-up" id="about" className="py-12 flex flex-col lg:items-start items-center bg-alternate-bg lg:px-20 px-5 text-white font-Nunito">
             <h1 className="lg:w-fit flex lg:items-start items-center flex-col after:content-[''] after:w-1/2 after:mt-1 font-bold after:bg-orange after:block after:h-1 after:rounded-full text-2xl">
                 About Me
             </h1><br /><br />

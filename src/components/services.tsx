@@ -27,7 +27,7 @@ export default function Services(): any{
     return (
         <div id="services" className="bg-transparent lg:px-20 py-12 px-2">
             <div className="flex lg:flex-row flex-col items-center lg:justify-start justify-center">
-                <div className="text-white lg:w-2/5 font-Nunito text-center lg:text-left">
+                <div data-aos="zoom-in-right" className="text-white lg:w-2/5 font-Nunito text-center lg:text-left">
                     <p className="text-sm text-orange">
                         SERVICES
                     </p>
@@ -35,7 +35,7 @@ export default function Services(): any{
                         My Services
                     </h1>
                 </div>
-                <div className="lg:w-3/5 text-white font-Nunito">
+                <div data-aos="zoom-in-right" className="lg:w-3/5 text-white font-Nunito">
                     <p>
                         
                         I'm a frontend developer with 2 years+ experience in building responsive and 
@@ -48,7 +48,7 @@ export default function Services(): any{
             <div className="flex justify-center items-center flex-wrap">
                 {
                     services.map((service:any)=>(
-                        <div className="lg:w-80 w-full text-white font-Nunito px-3 py-5 rounded-sm bg-orange mx-6 my-4">
+                        <div data-aos="zoom-in-up" className="lg:w-80 w-full text-white font-Nunito px-3 py-5 rounded-sm bg-orange mx-6 my-4">
                             <i className="text-3xl">
                                 {service.icon}
                             </i>

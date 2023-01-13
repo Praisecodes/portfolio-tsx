@@ -75,7 +75,7 @@ export default function Skills(): any{
             <div className="flex flex-wrap justify-center items-center">
                 {
                     skills.map((skill: any)=>(
-                        <div className="bg-alternate-bg py-6 px-4 lg:w-80 w-full mx-6 my-4 flex text-white font-Nunito items-center justify-between font-bold">
+                        <div data-aos="fade-right" className="bg-alternate-bg py-6 px-4 lg:w-80 w-full mx-6 my-4 flex text-white font-Nunito items-center justify-between font-bold">
                             <i className={`text-${skill.coloring} text-4xl`}>
                                 {skill.icon}
                             </i>
