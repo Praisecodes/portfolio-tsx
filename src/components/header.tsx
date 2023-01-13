@@ -22,11 +22,11 @@ export default function Header(): any{
             title: 'Skills',
             navLink: '#skills',
         },
-        {
-            id: 5,
-            title: 'Blog',
-            navLink: '#blog',
-        },
+        // {
+        //     id: 5,
+        //     title: 'Blog',
+        //     navLink: '#blog',
+        // },
         {
             id: 6,
             title: 'Contact',
