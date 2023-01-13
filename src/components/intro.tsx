@@ -8,22 +8,26 @@ export default function Intro(): any {
             id: 1,
             socialName: "Facebook",
             icon: <FaFacebookF />,
+            socialLink: "https://www.facebook.com/praisecodes",
         },
         {
             id: 2,
             socialName: "Twitter",
             icon: <FaTwitter />,
+            socialLink: "https://twitter.com/PraiseCodes",
         },
         {
             id: 3,
             socialName: "LinkedIn",
             icon: <FaLinkedin />,
+            socialLink: "https://www.linkedin.com/in/okeypraise/",
         },
 
         {
             id: 4,
             socialName: "Instagram",
             icon: <RiInstagramFill />,
+            socialLink: "https://www.instagram.com/praisecodes/",
         },
     ])
 
@@ -33,7 +37,7 @@ export default function Intro(): any {
                 <div className="flex">
                     {
                         socials.map((social:any)=>(
-                            <a className="text-white cursor-pointer hover:text-orange ease-in-out duration-300 lg:text-xl text-base lg:p-3 lg:mx-4 mx-2 p-2 border border-orange rounded-full">
+                            <a href={social.socialLink} className="text-white cursor-pointer hover:text-orange ease-in-out duration-300 lg:text-xl text-base lg:p-3 lg:mx-4 mx-2 p-2 border border-orange rounded-full">
                                 {social.icon}
                             </a>
                         ))
